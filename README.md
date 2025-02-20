@@ -8,5 +8,6 @@ A repository for documenting pretty much everything I learn, so I can refer back
 - [Component testing](/docs/ComponentTesting.md)
 - [Controllers](/docs/Controllers.md)
 - [Dotnet](/docs/Dotnet.md)
+- [GUIDs](/docs/GUIDs.md)
 - [Integration testing](/docs/IntegrationTesting.md)
 - [Terraform](/docs/Terraform.md)
