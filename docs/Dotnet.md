@@ -14,4 +14,4 @@ Make a new .NET project:
 dotnet new console -o /ProjectNameHere
 ```
 
-![Create a new console application](/Images/console-application-creation.png)
+![Create a new console application](/images/console-application-creation.png)
