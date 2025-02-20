@@ -4,10 +4,10 @@ A repository for documenting pretty much everything I learn, so I can refer back
 
 ## Table of contents
 
-- [Code snippets](/docs/CodeSnippets.md)
-- [Component testing](/docs/ComponentTesting.md)
-- [Controllers](/docs/Controllers.md)
-- [Dotnet](/docs/Dotnet.md)
-- [GUIDs](/docs/GUIDs.md)
-- [Integration testing](/docs/IntegrationTesting.md)
-- [Terraform](/docs/Terraform.md)
+- [Code snippets](/docs/code-snippets.md)
+- [Component testing](/docs/component-testing.md)
+- [Controllers](/docs/controllers.md)
+- [Dotnet](/docs/dotnet.md)
+- [GUIDs](/docs/guids.md)
+- [Integration testing](/docs/integration-testing.md)
+- [Terraform](/docs/terraform.md)

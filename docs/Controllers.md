@@ -6,4 +6,4 @@ A controller is just a class which **controls how a user interacts** with an MVC
 - **VIEW**
 - **CONTROLLER**
 
-![Diagram of MVC](/images/MVC-diagram.png)
+![Diagram of MVC](/images/mvc-diagram.png)
