@@ -4,13 +4,13 @@ The **.NET runtime** is a code library which is *needed to run C# applications*.
 
 Check if .NET is installed and which version:
 
-```
+```bash
 dotnet --version
 ```
 
 Make a new .NET project:
 
-```
+```bash
 dotnet new console -o /ProjectNameHere
 ```
 
