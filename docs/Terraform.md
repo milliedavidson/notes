@@ -125,3 +125,8 @@ terraform force-unlock LOCK_ID
 The Lock ID is usually shown in the error message. It may not work if your state is local and locked by a local process. If that is the case, kill that process and retry.
 
 You can also manually unlock the state by navigating to the state file in Azure Portal e.g. **resource group > storage account > containers > container** and clicking **break lease**.
+
+## Issues I've discovered
+
+```additionalArguments:``` is not supported in the ```TerraformTaskV4@4``` task. Use ```commandOptions:``` instead.
+  
