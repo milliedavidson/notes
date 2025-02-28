@@ -10,4 +10,6 @@ A repository for documenting pretty much everything I learn, so I can refer back
 - [Dotnet](/docs/dotnet.md)
 - [GUIDs](/docs/guids.md)
 - [Integration testing](/docs/integration-testing.md)
+- [Swagger](/docs/swagger.md)
 - [Terraform](/docs/terraform.md)
+- [Value types](/docs/value-types.md)
