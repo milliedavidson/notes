@@ -37,17 +37,17 @@ The heap stores data such as:
 
 ## Value types location
 
-Objects of value types are stored in **one location of memory** - on the stack. Whereas *reference types need two locations in memory*. The actual data is stored on the stack; the reference pointing to the real data is stored on the heap.
+Objects of value types are stored in **one location of memory** - on the stack. Whereas reference types need **two locations in memory**. The actual data is stored on the stack; the reference pointing to the real data is stored on the heap.
 
 Value types include:
 
-- byte
-- int
-- short
-- bool
-- long
-- enum
-- struct
+- ```byte```
+- ```int```
+- ```short```
+- ```bool```
+- ```long```
+- ```enum```
+- ```struct```
 
 ## How do I know if it's a value type?
 
@@ -56,6 +56,6 @@ You can check if a type is a value by using the ```typeof``` operator to get the
 ```csharp
 using System;
 
-WriteLine(typeof(int).IsValueType); // will output True
-WriteLine(typeof(string).IsValueType); // will output False
+WriteLine(typeof(int).IsValueType); // will return True
+WriteLine(typeof(string).IsValueType); // will return False
 ```
