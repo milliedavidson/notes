@@ -162,5 +162,4 @@ public IActionResult Login([FromBody] LoginModel model)
 }
 ```
 
-## 
-
+## Binary formatter
