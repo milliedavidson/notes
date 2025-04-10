@@ -21,9 +21,10 @@ A repository for documenting information I learn, so I can refer back to it in f
 - [Terraform](/docs/infrastructure/terraform.md)
 - [Git](/docs/infrastructure/git.md)
 
-### Security
+### Insecure code examples
 
-- [Insecure code examples](/docs/security/docs/security/insecure-code-examples.md)
+- [Binary formatter](docs/insecure-code-examples/binary-formatter.md)
+- [Logging into an endpoint](docs/insecure-code-examples/logging-into-an-endpoint.md)
 
 ### Testing
 

@@ -1,8 +1,6 @@
-# Insecure code examples
+# Logging into an endpoint
 
-## Logging into an endpoint
-
-### ⚠️ Insecure example 1
+## Insecure example ⚠️
 
 ```csharp
 // Client code
@@ -63,6 +61,8 @@ public class LoginController : ControllerBase
 }
 ```
 
+## Why this is insecure
+
 Using a **GET request** for logging in to an endpoint *exposes credentials* in the browser history, server logs, proxy logs and in the referrer headers.
 
 If someone were to create a file called `credentials.txt` with the following content:
@@ -86,7 +86,7 @@ SELECT * FROM Users WHERE Username = 'admin' OR '1'='1' AND Password = 'anything
 
 Since **'1'='1'** is a statement which always evaluates to true, this would authenticate as 'admin', allowing an attacker to authenticate as 'admin' without knowing the password!
 
-### Secure example 1
+## Secure example
 
 To make this secure, use a POST request with a JSON body and also use parameterised queries. Ensure there is proper input validation and sanitisation:
 
@@ -161,5 +161,3 @@ public IActionResult Login([FromBody] LoginModel model)
     command.Parameters.AddWithValue("@Password", model.Password);
 }
 ```
-
-## Binary formatter
