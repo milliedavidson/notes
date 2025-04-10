@@ -96,10 +96,10 @@ terraform {
 │ 
 │ Error message: state blob is already locked
 │ Lock Info:
-│   ID:        e4ca726e-3bdf-4433-1467-d9caf9640a5a
+│   ID:        ************************************
 │   Path:      millie-container/terraform.tfstate
 │   Operation: OperationTypePlan
-│   Who:       vsts@fv-az719-784
+│   Who:       ******@********
 │   Version:   1.10.5
 │   Created:   2025-01-30 15:02:41.801615579 +0000 UTC
 │   Info:      
@@ -129,4 +129,3 @@ You can also manually unlock the state by navigating to the state file in Azure 
 ## Issues I've discovered
 
 ```additionalArguments:``` is not supported in the ```TerraformTaskV4@4``` task. Use ```commandOptions:``` instead.
-  
